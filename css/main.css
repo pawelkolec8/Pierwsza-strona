@@ -1,0 +1,144 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Raleway', sans-serif;
+}
+main {
+	width: 1200px;
+	margin: 50px auto;
+}
+main h2{
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.about-us-box {
+    position: relative;
+    height: 300px;
+    margin: 40px 0;
+    background-attachment: fixed;
+    background-position: center;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    overflow: hidden;
+}
+.top {
+    background-image: url('../img/coffee-4334647_1920.jpg');
+}
+.middle {
+    background-image: url('../img/mobile-phone-5388160_1920.jpg');
+}
+.bottom {
+    background-image: url('../img/office-620822_1920.jpg');
+}
+.about-us-text h3{
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.about-us-text {
+    position: absolute;
+    bottom: 20px; 
+    text-align: center;
+    color: #fff;
+    padding: 20px 40px;
+}
+.about-us-bg{
+    position: absolute;
+    bottom: 0;
+    height: 45%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+footer {
+	height: 80px;
+	line-height: 80px;
+	background-color: #333;
+	color: #ddd;
+	text-align: center;
+	font-size: 20px;
+}
+.nav {
+	height: 50px;
+	background-color: #333;
+	text-align: center;
+	font-size: 0;
+}
+.nav-item {
+	display: inline-block;
+}
+.nav-item a {
+	color: #fff;
+	font-size: 16px;
+	padding: 0 50px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	line-height: 50px;
+}
+.nav-item a:hover {
+	color: #0086f3;
+	transition: color 0.3s;
+}
+.header-img {
+	position: relative;
+	height: 300px;
+	background-image: url('../img/planet-1702788_1920.jpg');
+	background-size: cover;
+	background-position: 0 50%;
+}
+.header-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #fff;
+	z-index: 1;
+}
+.header-bg {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 3, 27, 0.4);
+}
+.header-text h1 {
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+.icon-box {
+	margin-left: 20px;
+}
+.icon-box a {
+	color: #ddd;
+	margin: 0 5px;
+	font-size: 30px;
+}
+.icon-box a:hover {
+	color: #0086f3;
+	transition: color 0.3s;
+}
+.services-list{
+    margin: 0 auto;
+    width: 200px;
+}
+.prices-table{
+    margin: 0 auto;
+
+}
+.prices-table td{
+    padding: 10px 30px;
+    
+}
+.contact-info{
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+}
+.fa-sharp{
+    font-weight: 700;
+    margin-right: 50px;
+}
